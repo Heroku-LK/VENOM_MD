@@ -8,7 +8,7 @@ global.port = process.env.PORT;
 global.appUrl = process.env.APP_URL || "";
 global.email = "Hechem254@gmail.com";
 global.location = "Nairobi, Africa.";
-global.mongodb = process.env.MONGODB_URI || "";
+global.mongodb = process.env.MONGODB_URI || "mongodb://mongo:femHfGLKcnAgOqrZAMfiRNTHAbRGzJyM@junction.proxy.rlwy.net:22564";
 global.allowJids = process.env.ALLOW_JID || "null";
 global.blockJids = process.env.BLOCK_JID || "null";
 global.DATABASE_URL = process.env.DATABASE_URL || "";
@@ -42,7 +42,7 @@ global.scan = "https://venommd-68da3806b609.herokuapp.com/pair";
 
 global.SESSION_ID =
   process.env.SESSION_ID ||
-  ""
+  "Fu93DSAS#REOYweYsbhX5Jwa2X5vrht_WQpKrReGGeZEg5olWZJQ"
 module.exports = {
   menu: process.env.MENU || "",
   HANDLERS: process.env.PREFIX || ".",
